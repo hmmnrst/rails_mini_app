@@ -1,3 +1,5 @@
+require_relative 'config/application'
+
 Rails.application.initialize!
 
 Rails.application.routes.draw do
