@@ -5,4 +5,7 @@ require 'delayed_job_active_record'
 
 class MiniApp < Rails::Application
   config.active_job.queue_adapter = :delayed_job
+
+  # config.log_level = :info
+  config.log_formatter = ::Logger::Formatter.new
 end
